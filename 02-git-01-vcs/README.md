@@ -66,6 +66,9 @@
 1. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
 1. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
 
+![vcs](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/vcs%20hw%20%20img/vcs_1.png)    
+
+
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
 1. Создайте файлы `will_be_deleted.txt` (с текстом `will_be_deleted`) и `will_be_moved.txt` (с текстом `will_be_moved`) и закоммите их с комментарием `Prepare to delete and move`.
@@ -73,6 +76,9 @@
 1. Удалите файл `will_be_deleted.txt` с диска и из репозитория. 
 1. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
 1. Закоммитьте результат работы с комментарием `Moved and deleted`.
+
+![vcs](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/vcs%20hw%20%20img/vcs_2.png)    
+
 
 ### Проверка изменения
 
@@ -84,11 +90,17 @@
     * `Moved and deleted` — после удаления и перемещения временных файлов. 
 2. Проверьте это, используя комманду `git log`. Подробно о формате вывода этой команды мы поговорим на следующем занятии, но посмотреть, что она отображает, можно уже сейчас.
 
+![vcs](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/vcs%20hw%20%20img/vcs_3.png)    
+
+
 ### Отправка изменений в репозиторий
 
 Выполните команду `git push`, если Git запросит логин и пароль — введите ваши логин и пароль от GitHub. 
 
 В качестве результата отправьте ссылку на репозиторий. 
+
+![vcs](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/vcs%20hw%20%20img/vcs_4.png)    
+
 
 ----
 
