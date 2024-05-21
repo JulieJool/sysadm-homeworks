@@ -131,6 +131,15 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
     * в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
     * в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
+![creating tags](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_tags_1.png)   
+
+![pushing tags](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_pushing_tags.png)   
+
+![tags in github](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_tags_pushed_github.png)   
+
+![tags in gitlab](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_tags_pushed_gitlab.png)   
+
+
 ## Задание 3. Ветки 
 
 Давайте посмотрим, как будет выглядеть история коммитов при создании веток. 
@@ -145,6 +154,16 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
 
+![creating and changing a branch](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_branch_fix.png)   
+
+![commit network](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/commit_network.png)   
+
+![logs](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_branch_fix_logs.png)   
+
+![commit network after making some commits in fix](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/commit_network_after.png)  
+
+![logs after making some commits in fix](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_branch_fix_logs_after.png)   
+
 ## Задание 4. Упрощаем себе жизнь
 
 Попробуем поработь с Git при помощи визуального редактора. 
@@ -153,7 +172,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 1. Измените какой-нибудь файл, и он сразу появится на вкладке `Local Changes`, отсюда можно выполнить коммит, нажав на кнопку внизу этого диалога. 
 1. Элементы управления для работы с Git будут выглядеть примерно так:
 
-   ![Работа с гитом](img/ide-git-01.jpg)
+ ![working with IDE](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/PyCharm_IDE_commit_test.png)   
    
 1. Попробуйте выполнить пару коммитов, используя IDE. 
 
@@ -162,7 +181,12 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 Если вверху экрана выбрать свою операционную систему, можно посмотреть горячие клавиши для работы с Git. 
 Подробней о визуальном интерфейсе мы расскажем на одной из следующих лекций.
 
-*В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket*.  
+*В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket*. 
+
+https://github.com/JulieJool/devops-netology/tree/fix   
+
+https://gitlab.com/JulieJool/devops-netology   
+
  
 ----
 
