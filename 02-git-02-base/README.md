@@ -66,6 +66,10 @@ https://gitlab.com/YOUR_LOGIN/devops-netology. Изучите предлагае
 * Измените видимость проекта на Public.
 * Нажмите «Сохранить изменения».
 
+
+![adding remote repos](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20basics%20img/git_basics_1.png)   
+
+
 ### Bitbucket* (задание со звёздочкой) 
 
 Это самостоятельное задание, его выполнение необязательно.
