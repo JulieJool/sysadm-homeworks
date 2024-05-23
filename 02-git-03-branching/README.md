@@ -136,8 +136,10 @@ echo "====="
 
 Если всё было сделано правильно, то на странице `network` в GitHub, находящейся по адресу 
 `https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/network`, будет примерно такая схема:
-  
-![Созданы обе ветки](img/01.png)
+
+### Промежуточное решение      
+
+![network with new branches](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20branching%20img/network_1.png)   
 
 #### Merge
 
@@ -156,9 +158,9 @@ Writing objects: 100% (1/1), 223 bytes | 223.00 KiB/s, done.
 Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 ```  
 
-В результате получаем такую схему:
+### В результате получаем такую схему:   
   
-![Первый мерж](img/02.png)
+![network after first time merging](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20branching%20img/network_2.png)   
 
 #### Rebase
 
@@ -263,6 +265,9 @@ To github.com:andrey-borue/devops-netology.git
 Branch 'git-rebase' set up to track remote branch 'git-rebase' from 'origin'.
 ```
 
+![successfully rebasing and pushing into origin](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20branching%20img/successfull_rebasing_and_pushing_into_origin.png)   
+
+
 **Шаг 9**. Теперь можно смержить ветку `git-rebase` в main без конфликтов и без дополнительного мерж-комита простой перемоткой: 
 
 ```
@@ -277,7 +282,16 @@ Fast-forward
  1 file changed, 1 insertion(+), 2 deletions(-)
 ```
 
+![git merge git-rebase](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20branching%20img/merging_git-rebase_fast-forward.png)   
+
+![network before merging fast-forward](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20branching%20img/network_3_before_merging_fast-forward.png)   
+
+![network after merging fast-forward](https://github.com/JulieJool/sysadm-homeworks/blob/devsys10/git%20branching%20img/network_4_after%20merging_fast-forward.png)   
+
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории.*
+
+https://github.com/JulieJool/devops-netology/network
+
  
 ----
 
